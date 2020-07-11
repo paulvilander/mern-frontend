@@ -1,0 +1,32 @@
+
+li.nav-item{
+    margin-top: 8px;
+    padding: 10px;
+    
+    cursor: pointer;
+}
+li.nav-item a{
+    color:#17a2b8;
+    font-weight: semi-bold;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+li.nav-item a:hover{
+    color:#17a2b8;
+    font-weight: semi-bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar a{
+    color: #dc3545;
+    font-size: 1.1em;
+}
+.navbar a:hover{
+    text-decoration: none;
+    background-color:#dc3545;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 16px;
+
+}

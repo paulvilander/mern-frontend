@@ -1,0 +1,25 @@
+label#thumbnail{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 20px;
+
+}
+label#thumbnail input{
+    display: none;
+}
+label#thumbnail.has-thumbnail{
+    border: 0;
+}
+#thumbnail.has-thumbnail img{
+    display: none;
+}
+.container > .event-validation{
+    margin-top: 12px;
+}
