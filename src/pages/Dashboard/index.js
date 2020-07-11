@@ -23,12 +23,12 @@ export default function Dashboard({history}){
 
     const toggle = () => setDropdownOpen(!dropdownOpen);
 
-    // eslint-disable-next-line
+    
     useEffect(() =>{ getEvents() },[])
 
    const socket = useMemo(
         () =>
-            socketio('http://localhost:8000',{ query: { user:user_id } }),
+            socketio('https://sport-app-backend.herokuapp.com',{ query: { user:user_id } }),
             [user_id]
             );
 
